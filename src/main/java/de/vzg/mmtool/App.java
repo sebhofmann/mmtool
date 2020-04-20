@@ -32,7 +32,7 @@ import de.vzg.mmtool.config.HomeDir;
 
 public class App {
 
-    public static final List<String> STRIP_APP_FOLDERS = Stream.of("save/").collect(Collectors.toList());
+    public static final List<String> STRIP_APP_FOLDERS = Stream.of("save/", "webpages/").collect(Collectors.toList());
 
     public static Scanner in;
 
